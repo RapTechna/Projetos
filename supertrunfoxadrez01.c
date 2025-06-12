@@ -5,7 +5,7 @@ int main() {
     printf("=== Movimento da TORRE (5 casas para a direita) ===\n");
 
     for (int i = 1; i <= 5; i++) {
-        printf("Direita (%d)\n", i); // Mostra a direção e o número da casa
+        printf("Direita (%d)\n", i);
     }
 
     // ======= Bispo: Move 5 casas na diagonal superior direita (usando WHILE) =======
