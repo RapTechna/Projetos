@@ -3,7 +3,7 @@
 int main() {
     // Carta 1
     char estado1;
-    char codigo1[4];   // Ex: "A01" + '\0'
+    char codigo1[4];
     char cidade1[50];
     int populacao1;
     float area1;
@@ -29,7 +29,7 @@ int main() {
     scanf(" %3s", codigo1);
 
     printf("Nome da cidade: ");
-    scanf(" %[^\n]", cidade1); // Lê com espaços
+    scanf(" %[^\n]", cidade1);
 
     printf("População: ");
     scanf("%d", &populacao1);
